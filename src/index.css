@@ -1,0 +1,164 @@
+*, body {
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4edd5;
+    padding: 20px;
+}
+
+nav > .link {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+} 
+
+.link:hover {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+body, #root, .main--home, .vans {
+    height: 100vh;
+}
+
+div > img {
+    height: 100vh;
+    position: absolute;
+    z-index: -1000;
+}
+
+.main--home, .vans {
+    display: flex;
+    flex-direction: column;
+}
+
+.main--home > .content { 
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.vans > .content { 
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content-bg1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/050a/aa4a/9b62f902c3de6d1b54b3a5d23341752c?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oLq5tMYd2mD~NhOF5AqGajwPAfXVHSZRYnogH94llHz4-KRaFKhOD4UcJdTSdtCoHm9rv6zyADLGMejtBu0XZTX32ieTbQZfi6z37JA6T708TC70Tg2nEuQZldjiXKcnJR1hyfVui1lEpnR1T5hKKhVPXn3~nqLR1xjOpD30mNFQgkOd898Ga3bT7rmmLgj1EiJHuAYb8g4cDpwacNYrz1yNrx3zNgUTmSV3s68f77NcYqWPvFUuM8wVnL5WLrXy7BA4sXRnG~bwRLQ4m2RFa46XJH4jewW77ktih3nUUssp5T8aJqEpeGAiG34YHF1D8tl5DWQrSK6hM4xvhZiQDQ__);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: white;
+}
+
+.content > h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.content > p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content > a {
+    width: 500px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF8C38;
+    border: none;
+    margin-top: 27px;
+    padding-block: .75rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+}
+
+.content > a:hover {
+    transform: translate(1px, 1px);
+}
+
+
+.van-img-2 {
+    box-sizing: border-box;
+    position: static;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin: none;
+}
+
+.about--text {
+    height: 600px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.about--text > div{
+ background-color: rgba(255, 204, 141, 1);
+ padding: 30px;
+ border-radius: 5px;
+ margin: auto 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ text-align: left;
+}
+
+.about--text > div > a > button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.link-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: .75rem 1.375rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+}
+
+.link-button:hover {
+    transform: translate(1px, 1px);
+}
